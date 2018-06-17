@@ -26,12 +26,8 @@ const common = {
     extensions: ["*", ".jsx", ".js", ".json", ".less"],
     modules: ["node_modules", PATHS.app],
     alias: {
-      AgentPage: path.resolve('./src/components/AgentPage'),
-      DashBoard: path.resolve('./src/components/DashBoard'),
-      DataPage: path.resolve('./src/components/DataPage'),
-      NavBar: path.resolve('./src/components/Navbar'),
-      Loading: path.resolve('./src/components/Loading'),
-      Settings: path.resolve('./src/components/Settings')
+      Components: path.resolve('./src/components'),
+
     },
   },
 
