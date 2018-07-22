@@ -30,7 +30,7 @@ export default function chartReducer(state = initialState, action) {
 
       return { ...state,
         status: 'success',
-        data: action.json
+        data: action.data
       }
 
     default:
